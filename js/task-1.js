@@ -4,7 +4,6 @@ function slugify(title) {
    const newTitle = title.split(" ");
    const result = newTitle.join("-");
    return result;
-
 }
 
 console.log(slugify("Arrays for begginers"));
